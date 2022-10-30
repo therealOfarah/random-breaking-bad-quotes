@@ -1,3 +1,4 @@
+import "../Styles/styles.css"
 type Props ={
   quote_id?: number;
   quote?: string;
