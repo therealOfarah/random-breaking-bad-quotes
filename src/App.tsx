@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import data from "./data.json"
 
 function App() {
+  //get a random number
+  const randomNumber=(max:number)=>{
+    return Math.floor(Math.random() * max);
+  }
+  //get a random quote from the array
+  let randomQuote = data.at(randomNumber(101))
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
   );
 }
 
