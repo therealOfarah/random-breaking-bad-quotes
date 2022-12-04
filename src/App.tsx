@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import data from "./data.json"
 import { Quote } from './components/Quote';
 function App() {
@@ -13,9 +13,13 @@ function App() {
   const randomNumber=(max:number)=>{
     return Math.floor(Math.random() * max);
   }
-  //get a random quote from the array
-  //get a new random quote from the array
+  useEffect(()=>{
+    let randomQuote = data.at(randomNumber(70))
+    //get a random quote from the array
+    setQuote(randomQuote)
+  },[])
   const handleNewQuote = ()=>{
+    //get a new random quote from the array
     let randomQuote = data.at(randomNumber(70))
     setQuote(randomQuote)
   }
