@@ -3,11 +3,10 @@ import data from "./data.json"
 import { Quote } from './components/Quote';
 function App() {
   type T ={
-    quote_id?: number;
-    quote?: string;
-    author?: string;
-    series?: string;
-    // handleNewQuote:()=> void;
+    quote_id: number;
+    quote: string;
+    author: string;
+    series: string;
   }
   const [quote, setQuote] = useState<T>()
   //get a random number
@@ -17,10 +16,8 @@ function App() {
   //get a random quote from the array
   //get a new random quote from the array
   const handleNewQuote = ()=>{
-    let randomQuote = data.at(randomNumber(101))
+    let randomQuote = data.at(randomNumber(70))
     setQuote(randomQuote)
-    // get
-    
   }
   return (
     <>
