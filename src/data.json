@@ -295,7 +295,7 @@
     },
     {
         "quote_id": 82,
-        "quote": "Mas his death satisfy you.",
+        "quote": "May his death satisfy you.",
         "author": "Gus Fring",
         "series": "Breaking Bad"
     },
@@ -418,5 +418,37 @@
         "quote": "S'all good, man.",
         "author": "Jimmy McGill",
         "series": "Better Call Saul"
+    },
+    {
+        "quote_id": 102,
+        "quote": "You’re my free pass … bitch.",
+        "author": "Jimmy McGill",
+        "series": "Jesse Pinkman"
+    },
+    {
+        "quote_id": 103,
+        "quote": "All I can do is wait … for the cancer to come back.",
+        "author": "Skyler White",
+        "series": "Breaking Bad"
+    },{
+        "quote_id": 104,
+        "quote": "Shut the f— up and let me die in peace.",
+        "author": "Mike Ehrmantraut",
+        "series": "Breaking Bad"
+    },{
+        "quote_id": 105,
+        "quote": "My name is ASAC Schrader, and you can go f— yourself",
+        "author": "Hank Schrader",
+        "series": "Breaking Bad"
+    },{
+        "quote_id": 106,
+        "quote": "I Am The One Who Knocks.",
+        "author": "Walter White",
+        "series": "Breaking Bad"
+    },{
+        "quote_id": 107,
+        "quote": "F**k You And Your Eyebrows.",
+        "author": "Walter White",
+        "series": "Breaking Bad"
     }
 ]

@@ -14,13 +14,13 @@ function App() {
     return Math.floor(Math.random() * max);
   }
   useEffect(()=>{
-    let randomQuote = data.at(randomNumber(70))
+    let randomQuote = data.at(randomNumber(76))
     //get a random quote from the array
     setQuote(randomQuote)
   },[])
   const handleNewQuote = ()=>{
     //get a new random quote from the array
-    let randomQuote = data.at(randomNumber(70))
+    let randomQuote = data.at(randomNumber(76))
     setQuote(randomQuote)
   }
   return (
